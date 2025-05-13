@@ -1,0 +1,13 @@
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.backup
+*.zip
+/public/build
+/public/hot
+
+echo "dapurWulan.zip" >> .gitignore
+echo "laravel.zip" >> .gitignore
+echo "public.zip" >> .gitignore
