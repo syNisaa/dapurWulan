@@ -178,36 +178,6 @@
   @include('companyprofile.contact')
   <!-- End Contact section -->
 
-  <!-- Start Map section -->
-  <section id="mu-map">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d897.3483723209646!2d106.87529853505758!3d-6.402839014998339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1745725570141!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-      width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
-  </section>
-  <!-- End Map section -->
-
-  <!-- Start Footer -->
-  <footer id="mu-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="mu-footer-area">
-            <div class="mu-footer-social">
-              <a href="#"><span class="fa fa-facebook"></span></a>
-              <a href="#"><span class="fa fa-twitter"></span></a>
-              <a href="#"><span class="fa fa-google-plus"></span></a>
-              <a href="#"><span class="fa fa-linkedin"></span></a>
-              <a href="#"><span class="fa fa-youtube"></span></a>
-            </div>
-            <div class="mu-footer-copyright">
-              <p>by <a rel="nofollow" href="#">syNisa</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
 
   @include('companyprofile.asset.jsCompany')
   @endforeach
